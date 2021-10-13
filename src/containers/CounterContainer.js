@@ -15,4 +15,4 @@ const CounterContainer = ()=>{
     );
 };
 
-export default (CounterContainer);
+export default React.memo(CounterContainer);
